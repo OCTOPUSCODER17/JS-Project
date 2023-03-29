@@ -1,0 +1,75 @@
+body {
+  width: inherit;
+  padding: 20px;
+  background: blanchedalmond;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.nav-center {
+  display: flex;
+  background-color: rgba(161, 51, 189, 0.815);
+  padding: 20px;
+  font-size: x-large;
+  font-weight: 700;
+  color: hsl(180, 100%, 50%);
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 10px 15px rebeccapurple;
+  border-radius: 5px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-links {
+  display: flex;
+  padding-right: 20px;
+}
+
+nav {
+  align-items: center;
+  height: 3rem;
+}
+
+main {
+  min-height: 100vh;
+  display:grid;
+  place-items: center;
+}
+
+li {
+  padding-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: large;
+  font-weight: 400;
+  color: rgb(147, 235, 33);
+}
+.container {
+  background-color: black;
+  color: aqua;
+  padding: 10px;
+  max-width: max-content;
+  border-radius: 20px;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  display: inline;
+}
+
+button {
+  background-color: darkgrey;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
